@@ -1,0 +1,41 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.name{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    /* background: linear-gradient(to right, #cc1919,rgb(0, 247, 255),red,yellow,pink,grey); */
+    /* -webkit-background-clip: text; Clips the gradient to the text */
+    /* -webkit-text-fill-color: transparent; Makes the text transparent to show the gradient */
+    font-size: 3rem; /* Adjust font size */
+    font-weight: bold; /* Optional: Make text bold */
+}
+
+.centrepage{
+    margin:  0px 200px 0px 200px;
+}
+
+.designation{
+    margin: 0px;
+}
+.line-bold{
+    border: none;
+    height: 5px; /* Adjust thickness */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background: linear-gradient(to left, #2b0000, #660000, #990000, #cc0000);
+    margin: 20px 0;
+    width: 82%;
+}
+img{
+    float:right;
+    height: 250px;
+    width: 200px;
+    border-bottom: solid 3px #191919;
+}
+
+.contact{
+    display: inline;
+}
