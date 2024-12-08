@@ -116,3 +116,24 @@ h4>span{
 .certificates{
     font-style: italic;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .header-details {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    header .profile-image {
+        margin-bottom: 20px;
+        height: 80px;
+        width: 80px;
+    }
+
+    
+    
+}
