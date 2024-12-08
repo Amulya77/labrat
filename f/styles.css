@@ -1,0 +1,231 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+header .contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+header .contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #2d8cf173, #f210674a);
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 15px 15px 0 0;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+header .contact {
+    font-size: 0.95rem;
+    color: #000000;
+}
+
+header .contact a {
+    color: #00b3ff;
+    text-decoration: none;
+}
+
+header .contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* sidjiojaod */
+/* Updated Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #2d8cf173, #f210674a);
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+header .header-details {
+    flex: 1;
+    margin-right: 20px; /* Add spacing between text and image */
+}
+
+header .profile-image {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    overflow: hidden;
+    border: 3px solid #000000;
+}
+
+header .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+header .contact {
+    font-size: 0.95rem;
+    color: #000000;
+}
+
+header .contact a {
+    color: #0088ff;
+    text-decoration: none;
+}
+
+header .contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .header-details {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    header .profile-image {
+        margin-bottom: 20px;
+        height: 80px;
+        width: 80px;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
