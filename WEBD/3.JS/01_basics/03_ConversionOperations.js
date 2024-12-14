@@ -57,3 +57,69 @@ console.log(boolstr);//false
 //" "=>true
 //null=>false
 //undefined=>false
+
+let num=33
+let strnum=num.toString();
+console.log(strnum);//"33"
+console.log(typeof strnum);//string
+//toString() converts the number to string
+
+//*********************************OPERATIons************** */
+
+
+let val=3
+let negval=-val
+console.log(negval);//-3
+
+console.log(2+2);//4
+console.log(2-2);//0
+console.log(2*2);//4
+console.log(2/2);//1
+console.log(2%2);//0
+console.log(2**2);//4
+//** is used for exponentiation
+//% is used for modulus
+// modulus is the remainder of the division
+
+let str1="Hello"
+let str2=" World"
+
+let str3=str1+str2;
+console.log(str3);//Hello World
+
+console.log(str1+2);//Hello2
+console.log(str1-2);//NaN
+console.log(str1*2);//NaN
+console.log(str1/2);//NaN
+console.log(str1%2);//NaN
+ 
+console.log("1"+2);//12
+console.log("1"-2);//-1
+console.log("1"*2);//2
+console.log("1"/2);//0.5
+
+console.log(1+"2");//12
+console.log(1-"2");//-1
+
+console.log("1"+"2");//12
+
+console.log(1+2+"3");//33
+console.log("1"+2+3);//123
+
+console.log(1+2+"3"+4);//334
+
+console.log("1"+true);//1true
+console.log("1"-true);//0
+
+console.log("1"+null);//1null
+console.log("1"-null);//1
+
+
+console.log("1"+undefined);//1undefined
+
+console.log("1"-undefined);//NaN
+
+console.log(1+true);//2
+console.log(true);//true
+
+console.log(+true);//1
