@@ -1,2 +1,2 @@
-Hii this is my first repo.
+Hii in this repo.
 JUST LAME REVISION.
